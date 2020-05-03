@@ -1,7 +1,7 @@
 #ifndef OCEAN_H
 #define OCEAN_H
 
-#include "cell.h"
+#include "Cell.h"
 #include <vector>
 
 class Ocean {

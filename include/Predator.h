@@ -1,8 +1,8 @@
 #ifndef PREDATOR_H
 #define PREDATOR_H
 
-#include "ocean.h"
-#include "prey.h"
+#include "Ocean.h"
+#include "Prey.h"
 
 class Prey;
 class Cell;

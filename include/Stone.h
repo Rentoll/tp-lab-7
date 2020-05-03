@@ -1,7 +1,7 @@
 #ifndef STONE_H
 #define STONE_H
 
-#include "cell.h"
+#include "Cell.h"
 
 class Cell;
 

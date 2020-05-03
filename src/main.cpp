@@ -1,4 +1,4 @@
-#include "ocean.h"
+#include "Ocean.h"
 #include <time.h>
 
 int main() {

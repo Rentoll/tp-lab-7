@@ -1,7 +1,7 @@
 #ifndef PREY_H
 #define PREY_H
 
-#include "ocean.h"
+#include "Ocean.h"
 
 class Cell;
 class Ocean;

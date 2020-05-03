@@ -1,4 +1,4 @@
-#include "cell.h"
+#include "Cell.h"
 
 void Cell::init(Pair coord, Ocean* ocean) {
 	this->coord = coord;

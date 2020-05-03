@@ -1,14 +1,14 @@
-#include "ocean.h"
-#include "stone.h"
-#include "prey.h"
-#include "predator.h"
+#include "Ocean.h"
+#include "Stone.h"
+#include "Prey.h"
+#include "Predator.h"
 #include "windows.h"
 
 Ocean::Ocean() {
 	cells = new Cell *[N];
 	for (int i = 0; i < N; i++) {
 		cells[i] = new Cell[M];
-	}
+		}
 }
 
 void Ocean::init() {
@@ -48,12 +48,12 @@ void Ocean::print() const {
 	}
 	if (preyCnt == 0) {
 		system("cls");
-		std::cout << "Predators won" << std::endl;
+		std::cout << "Predators survived" << std::endl;
 		exit(0);
 	}
 	if (predatorCnt == 0) {
 		system("cls");
-		std::cout << "Preys won" << std::endl;
+		std::cout << "Preys survived" << std::endl;
 		exit(0);
 	}
 }
